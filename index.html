@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="firstSec">
+            <img src="./img/logo.png" alt="">
+            <div class="add_task">
+                <img src="./img/add.png" alt="">
+                <span>New task</span>
+            </div>
+        </div>
+        <div class="secondSec">
+            <div class="list_task">
+                <div class="list_task_header">
+                    <span>Todo</span>
+                    <div class="todo_task_count_bg">
+                        <span id ="todo-task-count"></span>
+                    </div>
+                </div>
+                <div class="view_list_task" id ="todo-list"></div>
+            </div>
+            <div class="list_task">
+                <div class="list_task_header doing">
+                    <span>Doing</span>
+                    <div class="doing_task_count_bg">
+                        <span id ="doing-task-count"></span>
+                    </div>
+                </div>
+                <div class="view_list_task" id ="doing-list"></div>
+                
+            </div>
+            <div class="list_task">
+                <div class="list_task_header finished">
+                    <span>Finished</span>
+                    <div class="finished_task_count_bg">
+                        <span id ="finished-task-count"></span>
+                    </div>
+                </div>
+                <div class="view_list_task" id ="finished-list"></div>
+            </div>
+        </div>
+        
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>
