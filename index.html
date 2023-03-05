@@ -11,7 +11,7 @@
     <div class="container">
         <div class="firstSec">
             <img src="./img/logo.png" alt="">
-            <div class="add_task">
+            <div class="add_task" id="popup-task">
                 <img src="./img/add.png" alt="">
                 <span>New task</span>
             </div>
@@ -48,6 +48,20 @@
         </div>
         
     </div>
-        <script src="main.js"></script>
+    <div class="popup-input disable" id="popup-input">
+        <div class="input-bg" onclick=""></div>
+        <div class="popup-content-container">
+            <div class="popup-content">
+                <p class="input-title">ADD NEW TODO</p>
+            <input placeholder="Category" type="text" name="" id="category" required class="input">
+            <input placeholder="Title" type="text" name="" id="title" required class="input">
+            <input placeholder="Content" type="text" name="" id="content" required class="input">
+            <button id="add-todo" type="submit">SUBMIT</button>
+            <span class="close" id="close-popup-input">x</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
